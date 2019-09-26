@@ -1,3 +1,5 @@
+package ru.rasskopovaa.schoolProject.entity;
+
 public class Human {
     private String name;
     private String surname;

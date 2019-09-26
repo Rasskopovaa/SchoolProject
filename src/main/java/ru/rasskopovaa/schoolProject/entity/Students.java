@@ -1,3 +1,5 @@
+package ru.rasskopovaa.schoolProject.entity;
+
 public class Students extends Human {
     int marks;
 
@@ -17,7 +19,7 @@ public class Students extends Human {
 
     @Override
     public String toString() {
-        return "Students{" +
+        return "ru.rasskopovaa.schoolProject.entity.Students{" +
         "name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 ", marks=" + marks +
