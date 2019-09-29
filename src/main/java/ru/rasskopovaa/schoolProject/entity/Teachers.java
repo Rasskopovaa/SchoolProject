@@ -1,3 +1,5 @@
+package ru.rasskopovaa.schoolProject.entity;
+
 public class Teachers extends Human {
     String patronymic;
 
@@ -28,7 +30,7 @@ public class Teachers extends Human {
 
     @Override
     public String toString() {
-        return "Teachers{" +
+        return "ru.rasskopovaa.schoolProject.entity.Teachers{" +
                 "name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 ", subject=" + subjects +
