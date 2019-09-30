@@ -1,9 +1,7 @@
 package ru.rasskopovaa.schoolProject.entity;
 
-public class Students extends Human {
-    int steudentId;
+public class Subject {
+    int subjectId;
     int groupId;
-
-
+    
 }
-
